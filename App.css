@@ -1,0 +1,245 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: block;
+  position: relative;
+  background-color: lightgray;
+  width: 80vw;
+  height: 100%;
+  border: solid 1px;
+  left: 10%;
+}
+header{
+  display: block;
+  position: relative;
+  width: 80vw;
+  height: auto;
+  text-align: center;
+  bottom: 15px;
+  background-color: red;
+  color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.center{
+  text-align: center;
+}
+.col-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+.col-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+.col-3 { flex: 0 0 25%; max-width: 25%; }
+.col-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+.col-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+.col-6 { flex: 0 0 50%; max-width: 50%; }
+.col-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+.col-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+.col-9 { flex: 0 0 75%; max-width: 75%; }
+.col-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+.col-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+.col-12 { flex: 0 0 100%; max-width: 100%; }
+ul{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+
+}
+li{
+  display: inline-block;
+  width: 100px;
+  height: 48px;
+  margin-left: 3px;
+  text-align: center;
+  padding-top: 5px;
+  list-style: none;
+  border: solid 1px;
+  background-color: green;
+}
+ul li a{
+  height: 50px;
+  color:white;
+  list-style: none;
+  font-size: 20px;
+}
+#tartalom{
+  display: block;
+  position: relative;
+  float: left;
+  width: 76%;
+  height: 74vh;
+  border: solid 1px;
+}
+#archive{
+  display: block;
+  position: relative;
+  float: right;
+  width: 24%;
+  height: 74vh;
+  background-color: gray;
+  text-align: center;
+}
+footer{
+  display: block;
+  position: absolute;
+  background-color: red;
+  top: 652px;
+  width: 80vw;
+  height: 50px;
+}
+footer h2{
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+#belepes{
+  display: block;
+  position: relative;
+  width: 45%;
+  height: 50vh;
+  top: 100px;
+  float: left;
+  left: 30px;
+  border: solid 1px;
+  background-color: whitesmoke;
+}
+#belepes h2{
+  text-align: center;
+  padding-top: 10px;
+}
+#belepes h3{
+  margin-left: 100px;
+}
+#belepes input{
+  margin-left: 100px;
+  width: 200px;
+  padding: 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+.belepes{
+  background-color: green;
+  margin-left: 70px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+.cancel{
+  background-color: red;
+  color: white;
+}
+#regisztracio{
+  display: block;
+  position: relative;
+  width: 45%;
+  height: 50vh;
+  top: 80px;
+  right: 30px;
+  float: right;
+  border: solid 1px;
+  background-color: whitesmoke;
+}
+#regisztracio h2{
+  text-align: center;
+  padding-top: 10px;
+}
+#regisztracio h3{
+  margin-left: 100px;
+}
+#regisztracio #email{
+  margin-left: 100px;
+  width: 200px;
+  padding: 5px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+.regisztracio{
+  background-color: green;
+  margin-left: 100px;
+}
+.checkbox{
+  position: relative;
+  left: -115px;
+  top: 5px;
+}
+.küldes{
+  background-color: green;
+  margin-left: 150px;
+  color: white;
+}
+#koszonto{
+  text-align: center;
+  padding-top: 100px;
+}
+h1{
+  text-align: center;
+}
+#kep1{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#kep2{
+  position: relative;
+  margin-left: 325px;
+  bottom: 180px;
+}
+#kep3{
+  position: relative;
+  left: 625px;
+  bottom: 485px;
+}
+#video1{
+  width: 265px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border: solid 1px;
+}
+#video2{
+  position: relative;
+  width: 265px;
+  height: 250px;
+  border: solid 1px;
+  left: 325px;
+  bottom: 250px;
+}
+#video3{
+  position: relative;
+  width: 265px;
+  height: 250px;
+  border: solid 1px;
+  left: 625px;
+  bottom: 500px;
+}
+input{
+  position: absolute;
+  left: 25%;
+  margin-top: 0;
+}
+.bejelentkezes{
+  border: solid 1px;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.reg{
+  border: solid 1px;
+  border-radius: 15px;
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.adatvedelem{
+  position: relative;
+  left: 35px;
+  bottom: 20px;
+  text-align: center;
+}
