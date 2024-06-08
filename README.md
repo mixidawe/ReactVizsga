@@ -1,4 +1,5 @@
 # ReactVizsga
+Mappák létrehozása SRC mappában (Kepek, Pages,assets
 Oldal felépítése
 CSS kódok megírása
 Képek importálása és beillesztése
